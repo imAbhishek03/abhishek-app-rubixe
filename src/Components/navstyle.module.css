@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#nav>article{
+    height: 80px;
+    width: 97%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+#nav>article>.logo{
+    width: 50%;
+}
+#nav>article>.menu{
+    width: 50%;
+}
+#nav>article>.menu>ol{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav>article>.menu>ol>li>a{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
